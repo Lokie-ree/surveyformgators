@@ -1,0 +1,39 @@
+:root {
+    --gatorsBlue: rgb(12, 12, 187);
+    --gatorsOrange: rgb(248, 105, 44);
+    --gatorsBlack: rgb(0, 0, 0);
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: var(--gatorsBlue);
+    padding: 20px;
+    margin: 20px;
+}
+
+h1 {
+    color: var(--gatorsOrange);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.container-sm {
+    padding: 30px;
+    border-radius: 10px;
+    color: var(--gatorsOrange);
+    background-color: var(--gatorsBlack);
+}
+
+.form-floating mb-3 {
+    color: blue;
+}
+
+
+
+
+
+
+
+
